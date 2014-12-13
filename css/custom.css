@@ -1,0 +1,70 @@
+html, body {
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Comic Sans MS';
+}
+
+section {
+  padding-top: 30px;
+}
+
+#intro {
+  padding:0;
+  background-color: #fff7e6;
+  color: #5F450D;
+}
+
+#intro h1 {
+  margin-bottom: 10px;
+}
+
+#intro h5 {
+  color: #C0963B;
+}
+
+#intro .other-dl a {
+  color: #5F450D;
+}
+
+#intro .button {
+  background-color: #fff;
+}
+
+#intro .button-primary {
+  background-color: #33C3F0;
+}
+
+.social-container {
+  position: relative;
+  left: -50%;
+}
+
+.social {
+  position: relative;
+  left: 50%;
+  padding-top: 50px;
+  list-style-type: none;
+}
+
+.social li {
+  margin-bottom: 5px;
+}
+
+#intro .container {
+  width: 90%;
+  max-width: 1200px;
+}
+
+.downloads {
+  margin-top: 40px;
+}
+
+.downloads .button .fa {
+  font-size: 18px;
+}
+
+#footer {
+  background-color: #fff7e6;
+  color: #5F450D;
+}
