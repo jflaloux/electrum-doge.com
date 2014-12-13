@@ -1,76 +1,201 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Electrum-doge.com by jflaloux</title>
-  </head>
+<html lang="en">
+<head>
 
-  <body>
-    <div id="container">
-      <div class="inner">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Electrum-Doge - Lightweight Dogecoin Wallet</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-        <header>
-          <h1>Electrum-doge.com</h1>
-          <h2>Electrum-Doge Official Site</h2>
-        </header>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/jflaloux/electrum-doge.com/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/jflaloux/electrum-doge.com/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/jflaloux/electrum-doge.com" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+  <link rel="stylesheet" href="css/custom.css">
 
-        <hr>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/electrum-doge.png" />
 
-        <section id="main_content">
-          <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <footer>
-          Electrum-doge.com is maintained by <a href="https://github.com/jflaloux">jflaloux</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section id="intro">
+    <div class="container">
+        <div class="row">
+          <div class="five columns" style="margin-top: 8%; text-align:center">
+            <h1>Electrum-Doge</h1>
+            <h5>Lightweight Dogecoin Wallet</h5>
+            <div class="downloads">
+              <a href="downloads/2.2/electrum-doge-2.2-setup.exe" class="button button-primary dl-windows"><span class="fa fa-windows"></span> <span data-i18n="dgc-wallet-windows"> Windows</span></a>
+              <a href="downloads/2.2/electrum-doge-2.2-macosx.dmg" class="button button-primary dl-osx"><span class="fa fa-apple"></span> <span data-i18n="dgc-wallet-osx"> OS X</span></a> 
+              <a href="https://github.com/electrumalt/electrum-doge/blob/master/README" class="button button-primary dl-linux"><span class="fa fa-linux"></span> <span data-i18n="dgc-wallet-linux"> Linux</span></a>
+            </div>
+            <p class="other-dl">
+              Version 2.2
+              | <a href="downloads/2.2/electrum-doge-2.2-win.zip">Windows Standalone</a>
+              <br> <a href="https://github.com/electrumalt/electrum-doge">Github Source Code</a> 
+              | <a href="https://github.com/electrumalt/electrum-doge/issues">Bug Tracker</a>
+            </p>
+            <div class="social-container">
+              <ul class="social">
+                <li>
+                  <div style="display:inline-block;vertical-align:top;padding-top:3px">
+                    <a class="twitter-share-button" href="https://twitter.com/share"> Tweet</a>
+                  </div>
+                  <div style="display:inline-block;vertical-align:top;">
+                    <div class="fb-like" data-href="https://electrum-doge.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div> 
+                  </div>
+                </li>
+                <li>Beer fund: <strong>DNLRXL2MBBSgVpayYrSztxrxehWpau6jVU</strong></li>
+              </ul>
+            </div>
+          </div>
+          <div class="seven columns" style="margin-top: 5%">
+            <p><img src="images/doge-screenshot.png" alt="Electrum-Doge screenshot"></p>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section id="about" style="display:none">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>About</h2>
+          <p>blabla</p>
+        </div>
       </div>
     </div>
-  </body>
+  </section>
+  <section id="faq">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>FAQ</h2>
+          <ul>
+
+            <li><a href="#how-does-Electrum-Doge">How does Electrum-Doge work?</a></li>
+            <li><a href="#seed">What is the Seed?</a></li>
+            <li><a href="#gap-limit">What is the gap limit?</a></li>
+            <li><a href="#freeze-address">What does it mean to "Freeze" an address in Electrum-Doge?</a></li>
+            <li><a href="#wallet-encryption">What encryption is used for wallets?</a></li>
+            <li><a href="#cold-wallet-support">Does Electrum-Doge support cold wallets?</a></li>
+            <li><a href="#import-address">Can I import addresses from other cryptocoin clients?</a></li>
+            <li><a href="#wallet-file">Where is my wallet file located?</a></li>
+            <li><a href="#create-sign-raw-txs">Can Electrum-Doge create and sign raw transactions?</a></li>
+
+          </ul>
+
+            <h5 id="how-does-Electrum-Doge"><h5>How does Electrum-Doge work?</h5>
+              <p>Electrum-Doge was born as a fork of the <a href="http://electrum.org">Electrum</a> Bitcoin wallet.</p>
+
+              <p>
+              It is a lightweight wallet that only downloads block headers instead of the whole blockchain which makes it faster
+              to sync and uses less computer resources, while still being secure and not relying on a trusted third party.
+              </p>
+
+              <p> Among it's interesting features are:</p>
+
+              <ul>
+                <li>Minimalistic user interface</li>
+                <li>Deterministic wallet (a wallet can be completely regenerated from a passphrase)</li>
+                <li>Secure (the wallet can be encrypted with a password)</li>
+                <li>Multiple translations</li>
+                <li>View exchange rate value directly from wallet</li>
+                <li>Benefits from improvements on the original Electrum and its reputation as an amazing lightweight wallet</li>
+              </ul>
+
+            <h5 id="seed"><h5>What is the Seed?</h5>
+            <p>Electrum-Doge uses a 128-bits random seed to generate your private keys. The seed can be represented as a 12-words mnemonic code. You do not need to perform regular backups, because your wallet can be recovered from the seed that you can memorize or write on paper.
+
+            <br><br>
+            Example:
+            <pre>hexadecimal: 431a62f1c86555d3c45e5c4d9e10c8c7
+mnemonic: "constant forest adore false green weave stop guy fur freeze giggle clock"</pre>
+
+            There are 2<sup>128</sup> possible seeds for a deterministic wallet in Electrum-Doge.</p>
+
+            <h5 id="gap-limit"><h5>What is the gap limit?</h5>
+            <p>The gap limit is the maximum number of consecutive unused addresses in your deterministic sequence of addresses. Electrum-Doge uses a gap limit to stop looking for addresses, it is set to 5 by default, so the client get all addresses until 5 unused addresses are found.</p>
+
+            <h5 id="freeze-address"><h5>What does it mean to "Freeze" an address in Electrum-Doge?</h5>
+            <p>When you freeze an address, the funds in that address will not be used for new transactions. You can not send coins if you don't have enough funds in the non-frozen addresses.</p>
+
+            <h5 id="wallet-encryption"><h5>What encryption is used for wallets?</h5>
+            <p>Electrum-Doge uses AES-256-CBC to encrypt the seed and private keys in the wallet.</p>
+
+            <h5 id="cold-wallet-support"><h5>Does Electrum-Doge support cold wallets?</h5>
+            <p>Yes. It also supports an easy and safe way to spend your coins in cold storage from an online computer using the Master Public Key.</p>
+
+            <h5 id="import-address"><h5>Can I import addresses from other cryptocoin clients?</h5>
+            <p>Yes, you could import the private keys from other clients, but you will have to keep a backup of those keys separately as they won't become part of your Electrum-Doge seed.</p>
+
+            <h5 id="wallet-file"><h5>Where is my wallet file located?</h5>
+            <p>The default wallet file is called default_wallet which is created when you first run the application and located under the /wallets folder.
+            <br>The following example refers to Electrum-Doge :
+            <br><br>
+            On Windows
+
+            <pre>Show hidden files
+Go to \Users\YourUserName\AppData\Roaming\Local\Electrum-Doge</pre>
+
+            On Mac
+            <pre>Open Finder
+Go &gt; Go to folder (shift+cmd+G) and type ~/.electrum-doge</pre>
+
+            On Linux
+            <pre>Home Folder
+Go &gt; Location and type ~/.electrum-doge</pre></p>
+
+            <h5 id="create-sign-raw-txs"><h5>Can Electrum-Doge create and sign raw transactions?</h5>
+            <p>Electrum-Doge lets you create and sign raw transactions right from the user interface using a form.</p>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <p>&copy; 2014 Electrum-Doge team - <a href="mailto:wow@electrum-doge.com">wow@electrum-doge.com</a> / <a href="https://twitter.com/ElectrumDoge">@ElectrumDoge</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript">
+  window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+  </script>
+  <script src="js/app.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57576670-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</body>
 </html>
