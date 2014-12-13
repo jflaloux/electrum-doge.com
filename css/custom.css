@@ -23,6 +23,13 @@ section {
   color: #C0963B;
 }
 
+#intro h6 {
+  color: #856829;
+  margin-bottom: 0px;
+  font-size: 2.0rem;
+
+}
+
 #intro .other-dl a {
   color: #5F450D;
 }
