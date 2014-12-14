@@ -1,4 +1,4 @@
 electrum-doge.com
 =================
 
-Electrum-Doge Official Site
+Electrum-Doge Site
